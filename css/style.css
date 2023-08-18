@@ -102,6 +102,7 @@ body {
 	color: var(--clr-grey-1);
 	line-height: 1.5;
 	font-size: 1rem;
+	scroll-behavior: smooth;
 }
 
 ul {
@@ -116,6 +117,8 @@ a {
 nav {
 	background: var(--clr-black);
 	box-shadow: var(--light-shadow);
+	opacity: 0.9;
+	position: sticky;
 }
 
 .nav-center {
@@ -197,7 +200,7 @@ img:not(.logo) {
 	object-fit: cover;
 	width: 100vw;
 	height: 100vh;
-	animation: fadeIn 1s;
+	animation: ease-in fadeIn 1s;
 	margin: auto;
 	overflow: hidden;
 }
@@ -244,6 +247,45 @@ span {
 	font-family: "Times New Roman", Times, serif;
 	text-align: center;
 	animation: slideInFromRight 1s;
+}
+
+/* footer */
+footer {
+	background: var(--clr-black);
+	box-shadow: var(--light-shadow);
+	opacity: 0.9;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	color: var(--clr-white);
+	letter-spacing: var(--spacing);
+	list-style-type: none;
+	font-size: 0.7em;
+	padding: 0.7em;
+}
+.footer-center {
+	max-width: 800px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+a {
+	color: var(--clr-white);
+	transition: var(--transition);
+}
+a:hover {
+	color: var(--clr-primary-5);
+	background: transparent;
+}
+
+footer ul {
+	display: flex;
+	gap: 2em;
+}
+footer ul li {
+	font-size: 1.3em;
 }
 
 /*
@@ -320,5 +362,19 @@ MOBILE 769px & tablets 992px
 		padding-right: 3rem;
 		font-family: "Times New Roman", Times, serif;
 		text-align: center;
+	}
+
+	/* footer */
+	footer {
+		font-size: 0.6em;
+		padding: 0.7em;
+	}
+
+	footer ul {
+		gap: 2em;
+	}
+
+	footer ul li {
+		font-size: 1.4em;
 	}
 }

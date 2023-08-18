@@ -111,3 +111,10 @@ window.addEventListener("DOMContentLoaded", function () {
 	showSlide(currentItem);
 	console.log(currentItem);
 });
+
+// print current year
+const copyright = document.querySelector(".copyright");
+
+const year = new Date().getFullYear();
+
+copyright.textContent = `Copyright © ${year} www.fotoroman.pl`;
