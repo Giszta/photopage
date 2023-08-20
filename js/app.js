@@ -112,7 +112,7 @@ window.addEventListener("DOMContentLoaded", function () {
 	console.log(currentItem);
 });
 
-// print current year
+// print current year - footer
 const copyright = document.querySelector(".copyright");
 
 const year = new Date().getFullYear();
