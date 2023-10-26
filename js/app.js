@@ -4,6 +4,7 @@ const links = document.querySelector(".sidebar");
 
 navToggle.addEventListener("click", function () {
 	links.classList.toggle("show-sidebar");
+
 	navToggle.classList.toggle("active");
 });
 

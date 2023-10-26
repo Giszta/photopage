@@ -16,10 +16,11 @@
 		></script>
 		<!--styles-->
 		<link rel="stylesheet" href="/photopage/css/galeriaZdjec.css" />
+		<link rel="stylesheet" href="/photopage/css/navbar.css" />
 	</head>
-	<body>
+	<body class="">
 		<!--navbar-->
-		<nav>
+		<nav class="navbar">
 			<div class="nav-center">
 				<div class="nav-header">
 					<img src="/photopage/img/logo.webp" class="logo" alt="logo" />
@@ -35,54 +36,289 @@
 				<ul class="links">
 					<li><a href="index.html">Strona Główna</a></li>
 					<li><a href="galeriaZdjec.html">Galeria Zdjęć</a></li>
-					<li><a href="">Oczami Drona</a></li>
-					<li><a href="">O mnie</a></li>
+					<!-- <li><a href="">Oczami Drona</a></li> -->
+					<li><a href="oMnie.html">O mnie</a></li>
 				</ul>
 			</div>
 		</nav>
-		<section>
-			<h1>Galeria Zdjęć</h1>
-			<div class="container1">
-				<div class="gallery">
-					<img
-						src="/photopage/img/gallery/gallery_001/Slovenia20220001.jpg"
-						alt=""
-					/>
-					<img
-						src="/photopage/img/gallery/gallery_001/Slovenia20220002.jpg"
-						alt=""
-					/>
-					<img
-						src="/photopage/img/gallery/gallery_001/Slovenia20220003.jpg"
-						alt=""
-					/>
-					<img
-						src="/photopage/img/gallery/gallery_001/Slovenia20220004.jpg"
-						alt=""
-					/>
-				</div>
+		<img src="/photopage/img/logo.webp" class="side-logo" alt="logo" />
+		<button class="sidebar-toggle">
+			<span class="bar"></span>
+			<span class="bar"></span>
+			<span class="bar"></span>
+		</button>
+		<aside class="sidebar">
+			<!-- <div class="sidebar-header">
+				<img src="/photopage/img/logo.webp" class="logo" alt="logo" />
+			</div> -->
+			<!--links-->
+			<ul class="links">
+				<li><a href="index.html">Strona Główna</a></li>
+				<li><a href="galeriaZdjec.html">Galeria Zdjęć</a></li>
+				<li><a href="">Oczami Drona</a></li>
+				<li><a href="">O mnie</a></li>
+			</ul>
+			<!--social media-->
+			<ul class="social-icons">
+				<li>
+					<a href="https://www.instagram.com/romangiszter/"
+						><i class="fa fa-instagram"></i
+					></a>
+				</li>
+				<li>
+					<a href="https://www.facebook.com/profile.php?id=100007263227928"
+						><i class="fa fa-facebook"></i
+					></a>
+				</li>
+				<li>
+					<a href="mailto: kontakt@fotoroman.pl"
+						><i class="fa fa-envelope"></i
+					></a>
+				</li>
+			</ul>
+			<p class="aside-copyright"></p>
+		</aside>
+		<!--photo gallery-->
+		<section class="photo-gallery">
+			<!--title-->
+			<div class="title">
+				<h1>Galeria Zdjęć</h1>
+				<div class="underline"></div>
 			</div>
-			<div class="container2">
-				<div class="gallery">
-					<img
-						src="/photopage/img/gallery/gallery_001/Slovenia20220005.jpg"
-						alt=""
-					/>
-					<img
-						src="/photopage/img/gallery/gallery_001/Slovenia20220006.jpg"
-						alt=""
-					/>
-					<img
-						src="/photopage/img/gallery/gallery_001/Slovenia20220007.jpg"
-						alt=""
-					/>
-					<img
-						src="/photopage/img/gallery/gallery_001/Slovenia20220007a.jpg"
-						alt=""
-					/>
+			<!--filter buttons-->
+			<div class="btn-container">
+				<button
+					class="filter-btn activeBtn"
+					id="activeBtn"
+					type="button"
+					data-filter="*"
+					onclick="filterAlbums(event)"
+				>
+					Wszystkie
+				</button>
+				<button
+					class="filter-btn"
+					type="button"
+					data-filter="polska"
+					onclick="filterAlbums(event)"
+				>
+					Polska
+				</button>
+				<button
+					class="filter-btn"
+					type="button"
+					data-filter="europa"
+					onclick="filterAlbums(event)"
+				>
+					Europa
+				</button>
+				<button
+					class="filter-btn"
+					type="button"
+					data-filter="inne"
+					onclick="filterAlbums(event)"
+				>
+					Inne
+				</button>
+			</div>
+			<!--gallery items-->
+			<div class="section-center">
+				<!-- single item -->
+				<div class="gallery-item polska" id="polska">
+					<h2>Polska 1</h2>
+					<div class="album_photo">
+						<ul id="frames">
+							<li class="frame">
+								<img
+									src="/photopage/img/gallery/gallery_001/Slovenia20220001.jpg"
+									class="photo"
+									alt=""
+								/>
+							</li>
+						</ul>
+					</div>
 				</div>
+				<!-- end of single item -->
+				<!-- single item -->
+				<div class="gallery-item europa" id="europa">
+					<h2>Europa 1</h2>
+					<div class="album_photo">
+						<ul id="frames">
+							<li class="frame">
+								<img
+									src="/photopage/img/gallery/gallery_002/Slovenia20220006.jpg"
+									class="photo"
+									alt=""
+								/>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- end of single item -->
+				<!-- single item -->
+				<div class="gallery-item inne" id="inne">
+					<h2>Inne 1</h2>
+					<div class="album_photo">
+						<ul id="frames">
+							<li class="frame">
+								<img
+									src="/photopage/img/gallery/gallery_003/Slovenia20220011.jpg"
+									class="photo"
+									alt=""
+								/>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- end of single item -->
+				<!-- single item -->
+				<div class="gallery-item europa" id="europa">
+					<h2>Europa 2</h2>
+					<div class="album_photo">
+						<ul id="frames">
+							<li class="frame">
+								<img
+									src="/photopage/img/gallery/gallery_004/Slovenia20220016.jpg"
+									class="photo"
+									alt=""
+								/>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- end of single item -->
+				<!-- single item -->
+				<div class="gallery-item polska" id="polska">
+					<h2>Polska 2</h2>
+					<div class="album_photo">
+						<ul id="frames">
+							<li class="frame">
+								<img
+									src="/photopage/img/gallery/gallery_005/Slovenia20220021.jpg"
+									class="photo"
+									alt=""
+								/>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- end of single item -->
+				<!-- single item -->
+				<div class="gallery-item polska" id="polska">
+					<h2>Polska 3</h2>
+					<div class="album_photo">
+						<ul id="frames">
+							<li class="frame">
+								<img
+									src="/photopage/img/gallery/gallery_001/Slovenia20220001.jpg"
+									class="photo"
+									alt=""
+								/>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- end of single item -->
+				<!-- single item -->
+				<div class="gallery-item europa" id="europa">
+					<h2>Europa 3</h2>
+					<div class="album_photo">
+						<ul id="frames">
+							<li class="frame">
+								<img
+									src="/photopage/img/gallery/gallery_002/Slovenia20220006.jpg"
+									class="photo"
+									alt=""
+								/>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- end of single item -->
+				<!-- single item -->
+				<div class="gallery-item inne" id="inne">
+					<h2>inne 2</h2>
+					<div class="album_photo">
+						<ul id="frames">
+							<li class="frame">
+								<img
+									src="/photopage/img/gallery/gallery_003/Slovenia20220011.jpg"
+									class="photo"
+									alt=""
+								/>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- end of single item -->
+				<!-- single item -->
+				<div class="gallery-item europa" id="europa">
+					<h2>Europa 4</h2>
+					<div class="album_photo">
+						<ul id="frames">
+							<li class="frame">
+								<img
+									src="/photopage/img/gallery/gallery_004/Slovenia20220016.jpg"
+									class="photo"
+									alt=""
+								/>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- end of single item -->
+				<!-- single item -->
+				<div class="gallery-item polska" id="polska">
+					<h2>Polska 4</h2>
+					<div class="album_photo">
+						<ul id="frames">
+							<li class="frame">
+								<img
+									src="/photopage/img/gallery/gallery_005/Slovenia20220021.jpg"
+									class="photo"
+									alt=""
+								/>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- end of single item -->
 			</div>
 		</section>
+		<div class="photobox">
+			<div id="prevBtn" class="prevNext">
+			<i class="fa fa-chevron-left"></i>
+		</div>
+		<div id="nextBtn" class="prevNext">
+			<i class="fa fa-chevron-right"></i>
+		</div>
+		<div class="mainPhoto">
+				<img id="mainPhoto" data-index="" src="./img/gallery/gallery_001/Slovenia20220005.jpg" alt="" />
+			</div>
+		<div class="closeBtnContainer">
+			<i class="closeBtn">&#x2715</i>
+		</div>
+		<div class="autoplayBtn">
+			<i class="fa fa-play "></i>
+			<i class="fa fa-pause  hidden"></i>
+			<div class="progressBox">
+				<div class="circleWhole circleRight"></div>
+			</div>
+		</div>
+		<div class="caption">
+			<div class="captionText"> <span class="photoCounter">lalal</span></div>
+			<div class="thumbsToggler">
+				<i class="fa fa-chevron-down"></i>
+			</div>
+			<!-- <div class="rotateBtn">
+				<i class="fa fa-rotate-right"></i>
+			</div> -->
+			<div class="thumbs">
+				<ul class="thumbsItems">
+					<!-- dynamic added thumb items -->
+				</ul>
+			</div>
+		</div></div>
 		<footer>
 			<div class="footer-center">
 				<p class="copyright"></p>

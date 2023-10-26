@@ -1,0 +1,62 @@
+[
+	{
+		"id": 1,
+		"title": "Polska 1",
+		"category": "polska",
+		"img": "./img/gallery/gallery_001/Slovenia20220001.jpg"
+	},
+	{
+		"id": 2,
+		"title": "Europa 1",
+		"category": "europa",
+		"img": "./img/gallery/gallery_002/Slovenia20220006.jpg"
+	},
+	{
+		"id": 3,
+		"title": "inne",
+		"category": "inne",
+		"img": "./img/gallery/gallery_003/Slovenia20220011.jpg"
+	},
+	{
+		"id": 4,
+		"title": "Europa 2",
+		"category": "europa",
+		"img": "./img/gallery/gallery_004/Slovenia20220016.jpg"
+	},
+	{
+		"id": 5,
+		"title": "Polska 2",
+		"category": "polska",
+		"img": "./img/gallery/gallery_005/Slovenia20220021.jpg"
+	},
+	{
+		"id": 6,
+		"title": "Polska 3",
+		"category": "polska",
+		"img": "./img/gallery/gallery_001/Slovenia20220001.jpg"
+	},
+	{
+		"id": 7,
+		"title": "Europa 3",
+		"category": "europa",
+		"img": "./img/gallery/gallery_002/Slovenia20220006.jpg"
+	},
+	{
+		"id": 8,
+		"title": "inne 2",
+		"category": "inne",
+		"img": "./img/gallery/gallery_003/Slovenia20220011.jpg"
+	},
+	{
+		"id": 9,
+		"title": "Europa 4",
+		"category": "europa",
+		"img": "./img/gallery/gallery_004/Slovenia20220016.jpg"
+	},
+	{
+		"id": 10,
+		"title": "Polska 4",
+		"category": "polska",
+		"img": "./img/gallery/gallery_005/Slovenia20220021.jpg"
+	}
+]
