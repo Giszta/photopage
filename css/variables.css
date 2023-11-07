@@ -1,0 +1,25 @@
+/*
+=============== 
+Fonts
+===============
+*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+/*
+=============== 
+Variables
+===============
+*/
+
+:root {
+	--ff-primary: "Roboto", sans-serif;
+	--ff-secondary: "Open Sans", sans-serif;
+	--clr-primary-1: hsl(205, 78%, 60%);
+	--clr-black: #222;
+	--clr-white: #fff;
+	--clr-background: hsl(210, 36%, 96%);
+	--max-width: 90vw;
+	--transition: all 0.3s linear;
+	--light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+	--spacing: 0.1rem;
+}
