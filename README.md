@@ -39,6 +39,7 @@ Working live demo <a href="https://giszta.github.io/photopage/" target="_blank">
 * Improve mobile view.
 * Add shutterstock link and icon.
 * Create admin panel to allow adding new albums and photos
+* Anything my father comes up with ;)
 
 ## Contact
 
