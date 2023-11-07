@@ -1,34 +1,27 @@
-<style>
-img[src*='#center'] { 
-    display: block;
-    margin: auto;
-}
-</style>
-
 # Fotoroman - photo page
 
 Simple page to publish and share my father photos created with HTML, CSS and JavaScript.
 
 ## Demo
-Here is a working live demo : https://giszta.github.io/photopage/
+Working live demo <a href="https://giszta.github.io/photopage/" target="_blank">here</a>
 
 
 ## Gifs & Screenshots
 ### Main page with randomly loaded photos and quotes.
 
-![Main page](/photopage/readme/main_page.gif#center)
+![Main page](./readme/main_page.gif)
 
 ### Album gallery page with filtering buttons
-![Photo album gallery](/photopage/readme/photo_album.gif#center)
+![Photo album gallery](./readme/photo_album.gif)
 
 ### Image viewer with manual or automatic photo slideshow
-![Photobox](/photopage/readme/photobox.gif#center)
+![Photobox](./readme/photobox.gif)
 
 ### About me section
-![About me](/photopage/readme/about_me.png#center)
+![About me](./readme/about_me.png)
 
 ### First mobile view upgrade
-![Mobile view](/photopage/readme/mobile_view.gif#center)
+![Mobile view](./readme/mobile_view.gif)
 
 
 
@@ -38,7 +31,7 @@ Here is a working live demo : https://giszta.github.io/photopage/
 * CSS3
 * JavaScript
 
-![Mobile view](/photopage/readme/page_schema.png#center)
+![Mobile view](./readme/page_schema.png)
 
 ## To-do
 * Create thumbnail carousel for albums with more photos.
@@ -51,4 +44,4 @@ Here is a working live demo : https://giszta.github.io/photopage/
 
 
 
-Created by <a href="https://www.linkedin.com/in/adam-giszter/">Adam Giszter</a> - feel free to contact me!
+Created by <a href="https://www.linkedin.com/in/adam-giszter/" target="_blank">Adam Giszter</a> - feel free to contact me!
