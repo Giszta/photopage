@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>FOTO ROMAN | Ja i moj Nikon</title>
+		<!-- font-awesome -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+		/>
+		<script
+			src="https://kit.fontawesome.com/7a4b62b0a4.js"
+			crossorigin="anonymous"
+		></script>
+		<!--styles-->
+		<link rel="stylesheet" href="/photopage/css/photoGallery.css" />
+		<link rel="stylesheet" href="/photopage/css/variables.css" />
+		<link rel="stylesheet" href="/photopage/css/navigation.css" />
+		<link rel="stylesheet" href="/photopage/css/footer.css" />
+
+	</head>
+	<body class="">
+		<!--navbar-->
+<div id="page-navigation"></div>
+		<!--photo gallery-->
+		<section class="photo-gallery">
+			<!--title-->
+			<div class="title">
+				<h1>Galeria Zdjęć</h1>
+				<div class="underline"></div>
+			</div>
+			<!--filter buttons-->
+			<div class="btn-container">
+				<button
+					class="filter-btn active-btn"
+					id="active-btn"
+					type="button"
+					data-filter="*"
+					onclick="filterAlbums(event)"
+				>
+					Wszystkie
+				</button>
+				<button
+					class="filter-btn"
+					type="button"
+					data-filter="polska"
+					onclick="filterAlbums(event)"
+				>
+					Polska
+				</button>
+				<button
+					class="filter-btn"
+					type="button"
+					data-filter="europa"
+					onclick="filterAlbums(event)"
+				>
+					Europa
+				</button>
+				<button
+					class="filter-btn"
+					type="button"
+					data-filter="inne"
+					onclick="filterAlbums(event)"
+				>
+					Inne
+				</button>
+			</div>
+			<!--gallery items-->
+			<div class="section-center">
+				<!-- single item -->
+				<div class="gallery-item inne" id="inne">
+					<h2 id="graffiti" class="album-title"></h2>
+					<div id="graffiti" class="album-photo">
+						<ul id="frames">
+							<li class="frame">
+								<img id="graffiti"
+									src=""
+									class="photo"
+									alt=""
+								/>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- end of single item -->
+				<!-- single item -->
+				<div class="gallery-item europa" id="europa">
+					<h2 id="hluboka" class="album-title"></h2>
+					<div id="hluboka" class="album-photo">
+						<ul id="frames">
+							<li class="frame">
+								<img
+								id="hluboka"
+									src=""
+									class="photo"
+									alt=""
+								/>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- end of single item -->
+				<!-- single item -->
+				<div class="gallery-item polska" id="polska">
+					<h2 id="sopot23" class="album-title"></h2>
+					<div id="sopot23" class="album-photo">
+						<ul id="frames">
+							<li class="frame">
+								<img id="sopot23"
+									src=""
+									class="photo"
+									alt=""
+								/>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- end of single item -->
+				<!-- single item -->
+				<div class="gallery-item europa" id="europa">
+					<h2 id="slowacja22" class="album-title"></h2>
+					<div id="slowacja22" class="album-photo">
+						<ul id="frames">
+							<li class="frame">
+								<img id="slowacja22"
+									src=""
+									class="photo"
+									alt=""
+								/>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- end of single item -->
+								<!-- single item -->
+				<div class="gallery-item europa" id="europa">
+					<h2 id="slowacja23" class="album-title"></h2>
+					<div id="slowacja23" class="album-photo">
+						<ul id="frames">
+							<li class="frame">
+								<img id="slowacja23"
+									src=""
+									class="photo"
+									alt=""
+								/>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- end of single item -->
+				
+				
+			</div>
+		</section>
+		<div class="photobox">
+			<div id="prev-btn" class="prev-next">
+			<i class="fa fa-chevron-left"></i>
+		</div>
+		<div id="next-btn" class="prev-next">
+			<i class="fa fa-chevron-right"></i>
+		</div>
+		<div class="main-photo">
+				<img id="main-photo" data-index="" src="" alt="" />
+			</div>
+		<div class="close-btn-container">
+			<i class="close-btn">&#x2715</i>
+		</div>
+		<div class="autoplay-btn">
+			<i class="fa fa-play "></i>
+			<i class="fa fa-pause  hidden"></i>
+			<div class="progress-box">
+				<div class="circle-progress-box circle-progress-bar"></div>
+			</div>
+		</div>
+		<div class="caption">
+			<div class="caption-text"> <span class="photo-counter">lalal</span></div>
+			<div class="thumbs-toggler">
+				<i class="fa fa-chevron-down"></i>
+			</div>
+			<!-- <div class="rotateBtn">
+				<i class="fa fa-rotate-right"></i>
+			</div> -->
+			<div class="thumbs">
+				<ul class="thumbnails">
+					<!-- dynamic added thumb items -->
+				</ul>
+			</div>
+		</div></div>
+		<footer>
+		</footer>
+		<!--javascript-->
+		<script src="/photopage/js/photoGallery.js"></script>
+		<script src="/photopage/js/navigation.js"></script>
+		<script src="/photopage/js/footer.js"></script>
+	</body>
+	</html>
