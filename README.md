@@ -7,7 +7,7 @@ Working live demo <a href="https://giszta.github.io/photopage/" target="_blank">
 
 
 ## Gifs & Screenshots
-### Main page with randomly loaded photos and quotes.
+### Main page with randomly loaded photos and quotes
 
 ![Main page](./readme/main_page.gif)
 
@@ -34,15 +34,15 @@ Working live demo <a href="https://giszta.github.io/photopage/" target="_blank">
 ![Mobile view](./readme/page_schema.png)
 
 ## To-do
-* Create thumbnail carousel for albums with more photos.
-* Full window mode for slideshow.
-* Improve mobile view.
-* Add shutterstock link and icon.
-* Create admin panel to allow adding new albums and photos
-* Anything my father comes up with ;)
+* Create thumbnail carousel for albums with more photos;
+* Full window mode for slideshow;
+* Improve mobile view;
+* Add shutterstock link and icon;
+* Create admin panel to allow adding new albums and photos;
+* Anything my father comes up with ;).
 
 ## Contact
 
 
 
-Created by <a href="https://www.linkedin.com/in/adam-giszter/" target="_blank">Adam Giszter</a> - feel free to contact me!
+Created by <a href="https://www.linkedin.com/in/adam-giszter/" target="_blank">Adam Giszter</a> - feel free to contact me!.
