@@ -564,8 +564,10 @@ MOBILE 769px & tablets 992px
 ===============
 */
 @media screen and (max-width: 992px) {
+
 	body {
 		font-size: 0.8em;
+		position: relative;
 	}
 	.stop-scroll {
 		overflow: hidden;

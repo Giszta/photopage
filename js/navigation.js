@@ -4,7 +4,7 @@ const nav = document.querySelector("#page-navigation");
 nav.innerHTML = `<nav class="navbar">
 <div class="nav-center">
     <div class="nav-header">
-        <img src="/photopage/img/logo.webp" class="logo" alt="logo" />
+        <img src="./img/logo.webp" class="logo" alt="logo" />
     </div>
     <!--links-->
     <ul class="links">
@@ -14,7 +14,7 @@ nav.innerHTML = `<nav class="navbar">
     </ul>
 </div>
 </nav>
-<img src="/photopage/img/logo.webp" class="side-logo" alt="logo" />
+<img src="./img/logo.webp" class="side-logo" alt="logo" />
 <button class="sidebar-toggle">
 <span class="bar"></span>
 <span class="bar"></span>
@@ -22,7 +22,7 @@ nav.innerHTML = `<nav class="navbar">
 </button>
 <aside class="sidebar">
 <!-- <div class="sidebar-header">
-    <img src="/photopage/img/logo.webp" class="logo" alt="logo" />
+    <img src="./img/logo.webp" class="logo" alt="logo" />
 </div> -->
 <!--links-->
 <ul class="links">
@@ -59,4 +59,5 @@ navToggle.addEventListener("click", () => {
 	links.classList.toggle("show-sidebar");
 	bodyOverflow.classList.toggle("stopScroll");
 	navToggle.classList.toggle("active");
+    window.scrollTo(0, 0);
 });
