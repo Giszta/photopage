@@ -381,6 +381,7 @@ const thumbnails = document.querySelectorAll(".thumbnail");
 const firstActiveItem = document.querySelector(".first");
 const albums = document.querySelectorAll(".section-center .gallery-item	");
 const timer = document.querySelector(".circle-progress-box");
+const html = document.querySelector("html");
 const d = (el) => {
 	if (!el.classList.contains("hidden")) {
 		el.classList.add("hidden");
@@ -435,6 +436,7 @@ photoBoxToggle.forEach((albumCover) => {
 			allAlbumPhotos[clickedAlbumId].length
 		})`;
 		window.scrollTo(0, 0);
+		html.classList.toggle("stop-scroll");
 	});
 });
 
@@ -528,6 +530,7 @@ function getClickedAlbumId(e) {
 
 function close() {
 	bodyOverflow.classList.toggle("stop-scroll");
+	html.classList.toggle("stop-scroll");
 	thumbnails.forEach((item) => item.classList.remove("active-thumbnail"));
 	photoBox.classList.add("fade-out");
 	setTimeout(() => {
