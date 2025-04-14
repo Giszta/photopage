@@ -469,7 +469,7 @@ h2 {
 }
 
 .thumbs-hide {
-	transform: translateY(120px);
+	transform: translateY(100px);
 	transition: all 0.5s;
 }
 
@@ -564,8 +564,10 @@ MOBILE 769px & tablets 992px
 ===============
 */
 @media screen and (max-width: 992px) {
+
 	body {
 		font-size: 0.8em;
+		position: relative;
 	}
 	.stop-scroll {
 		overflow: hidden;
