@@ -6,77 +6,77 @@ const allAlbumPhotos = {
 			class: "thumbnail first",
 			title: "Graffity",
 			filter: "inne",
-			src: "./img/gallery/graffiti/001.jpg",
+			src: "./img/gallery/Graffiti/001.jpg",
 		},
 		{
 			id: 2,
 			class: "thumbnail",
 			title: "Graffity",
 			filter: "inne",
-			src: "./img/gallery/graffiti/002.jpg",
+			src: "./img/gallery/Graffiti/002.jpg",
 		},
 		{
 			id: 3,
 			class: "thumbnail",
 			title: "Graffity",
 			filter: "inne",
-			src: "./img/gallery/graffiti/003.jpg",
+			src: "./img/gallery/Graffiti/003.jpg",
 		},
 		{
 			id: 4,
 			class: "thumbnail",
 			title: "Graffity",
 			filter: "inne",
-			src: "./img/gallery/graffiti/004.jpg",
+			src: "./img/gallery/Graffiti/004.jpg",
 		},
 		{
 			id: 5,
 			class: "thumbnail",
 			title: "Graffity",
 			filter: "inne",
-			src: "./img/gallery/graffiti/005.jpg",
+			src: "./img/gallery/Graffiti/005.jpg",
 		},
 		{
 			id: 6,
 			class: "thumbnail",
 			title: "Graffity",
 			filter: "inne",
-			src: "./img/gallery/graffiti/006.jpg",
+			src: "./img/gallery/Graffiti/006.jpg",
 		},
 		{
 			id: 7,
 			class: "thumbnail",
 			title: "Graffity",
 			filter: "inne",
-			src: "./img/gallery/graffiti/007.jpg",
+			src: "./img/gallery/Graffiti/007.jpg",
 		},
 		{
 			id: 8,
 			class: "thumbnail",
 			title: "Graffity",
 			filter: "inne",
-			src: "./img/gallery/graffiti/008.jpg",
+			src: "./img/gallery/Graffiti/008.jpg",
 		},
 		{
 			id: 9,
 			class: "thumbnail",
 			title: "Graffity",
 			filter: "inne",
-			src: "./img/gallery/graffiti/009.jpg",
+			src: "./img/gallery/Graffiti/009.jpg",
 		},
 		{
 			id: 10,
 			class: "thumbnail",
 			title: "Graffity",
 			filter: "inne",
-			src: "./img/gallery/graffiti/010.jpg",
+			src: "./img/gallery/Graffiti/010.jpg",
 		},
 		{
 			id: 11,
 			class: "thumbnail",
 			title: "Graffity",
 			filter: "inne",
-			src: "./img/gallery/graffiti/011.jpg",
+			src: "./img/gallery/Graffiti/011.jpg",
 		},
 	],
 	hluboka: [
@@ -195,162 +195,162 @@ const allAlbumPhotos = {
 			src: "./img/gallery/Sopot2023/008.jpg",
 		},
 	],
-	slowacja22: [
+	slowenia22: [
 		{
 			id: 1,
 			class: "thumbnail first",
-			title: "Słowacja 2022",
+			title: "Słowenia 2022",
 			filter: "Polska",
-			src: "./img/gallery/Slowacja2022/001.jpg",
+			src: "./img/gallery/Slowenia2022/001.jpg",
 		},
 		{
 			id: 2,
 			class: "thumbnail",
-			title: "Słowacja 2022",
+			title: "Słowenia 2022",
 			filter: "Polska",
-			src: "./img/gallery/Slowacja2022/002.jpg",
+			src: "./img/gallery/Slowenia2022/002.jpg",
 		},
 		{
 			id: 3,
 			class: "thumbnail",
-			title: "Słowacja 2022",
+			title: "Słowenia 2022",
 			filter: "Polska",
-			src: "./img/gallery/Slowacja2022/003.jpg",
+			src: "./img/gallery/Slowenia2022/003.jpg",
 		},
 		{
 			id: 4,
 			class: "thumbnail",
-			title: "Słowacja 2022",
+			title: "Słowenia 2022",
 			filter: "Polska",
-			src: "./img/gallery/Slowacja2022/004.jpg",
+			src: "./img/gallery/Slowenia2022/004.jpg",
 		},
 		{
 			id: 5,
 			class: "thumbnail",
-			title: "Słowacja 2022",
+			title: "Słowenia 2022",
 			filter: "Polska",
-			src: "./img/gallery/Slowacja2022/005.jpg",
+			src: "./img/gallery/Slowenia2022/005.jpg",
 		},
 		{
 			id: 6,
 			class: "thumbnail",
-			title: "Słowacja 2022",
+			title: "Słowenia 2022",
 			filter: "Polska",
-			src: "./img/gallery/Slowacja2022/006.jpg",
+			src: "./img/gallery/Slowenia2022/006.jpg",
 		},
 		{
 			id: 7,
 			class: "thumbnail",
-			title: "Słowacja 2022",
+			title: "Słowenia 2022",
 			filter: "Polska",
-			src: "./img/gallery/Slowacja2022/007.jpg",
+			src: "./img/gallery/Slowenia2022/007.jpg",
 		},
 		{
 			id: 8,
 			class: "thumbnail",
-			title: "Słowacja 2022",
+			title: "Słowenia 2022",
 			filter: "Polska",
-			src: "./img/gallery/Slowacja2022/008.jpg",
+			src: "./img/gallery/Slowenia2022/008.jpg",
 		},
 		{
 			id: 9,
 			class: "thumbnail",
-			title: "Słowacja 2022",
+			title: "Słowenia 2022",
 			filter: "Polska",
-			src: "./img/gallery/Slowacja2022/009.jpg",
+			src: "./img/gallery/Slowenia2022/009.jpg",
 		},
 		{
 			id: 10,
 			class: "thumbnail",
-			title: "Słowacja 2022",
+			title: "Słowenia 2022",
 			filter: "Polska",
-			src: "./img/gallery/Slowacja2022/010.jpg",
+			src: "./img/gallery/Slowenia2022/010.jpg",
 		},
 		{
 			id: 11,
 			class: "thumbnail",
-			title: "Słowacja 2022",
+			title: "Słowenia 2022",
 			filter: "Polska",
-			src: "./img/gallery/Slowacja2022/011.jpg",
+			src: "./img/gallery/Slowenia2022/011.jpg",
 		},
 		{
 			id: 12,
 			class: "thumbnail",
-			title: "Słowacja 2022",
+			title: "Słowenia 2022",
 			filter: "Polska",
-			src: "./img/gallery/Slowacja2022/012.jpg",
+			src: "./img/gallery/Slowenia2022/012.jpg",
 		},
 	],
-	slowacja23: [
+	slowenia23: [
 		{
 			id: 1,
 			class: "thumbnail first",
-			title: "Słowacja 2023",
+			title: "Słowenia 2023",
 			filter: "Polska",
-			src: "./img/gallery/Slowacja2023/001.jpg",
+			src: "./img/gallery/Slowenia2023/001.jpg",
 		},
 		{
 			id: 2,
 			class: "thumbnail",
-			title: "Słowacja 2023",
+			title: "Słowenia 2023",
 			filter: "Polska",
-			src: "./img/gallery/Slowacja2023/002.jpg",
+			src: "./img/gallery/Slowenia2023/002.jpg",
 		},
 		{
 			id: 3,
 			class: "thumbnail",
-			title: "Słowacja 2023",
+			title: "Słowenia 2023",
 			filter: "Polska",
-			src: "./img/gallery/Slowacja2023/003.jpg",
+			src: "./img/gallery/Slowenia2023/003.jpg",
 		},
 		{
 			id: 4,
 			class: "thumbnail",
-			title: "Słowacja 2023",
+			title: "Słowenia 2023",
 			filter: "Polska",
-			src: "./img/gallery/Slowacja2023/004.jpg",
+			src: "./img/gallery/Slowenia2023/004.jpg",
 		},
 		{
 			id: 5,
 			class: "thumbnail",
-			title: "Słowacja 2023",
+			title: "Słowenia 2023",
 			filter: "Polska",
-			src: "./img/gallery/Slowacja2023/005.jpg",
+			src: "./img/gallery/Slowenia2023/005.jpg",
 		},
 		{
 			id: 6,
 			class: "thumbnail",
-			title: "Słowacja 2023",
+			title: "Słowenia 2023",
 			filter: "Polska",
-			src: "./img/gallery/Slowacja2023/006.jpg",
+			src: "./img/gallery/Slowenia2023/006.jpg",
 		},
 		{
 			id: 7,
 			class: "thumbnail",
-			title: "Słowacja 2023",
+			title: "Słowenia 2023",
 			filter: "Polska",
-			src: "./img/gallery/Slowacja2023/007.jpg",
+			src: "./img/gallery/Slowenia2023/007.jpg",
 		},
 		{
 			id: 8,
 			class: "thumbnail",
-			title: "Słowacja 2023",
+			title: "Słowenia 2023",
 			filter: "Polska",
-			src: "./img/gallery/Slowacja2023/008.jpg",
+			src: "./img/gallery/Slowenia2023/008.jpg",
 		},
 		{
 			id: 9,
 			class: "thumbnail",
-			title: "Słowacja 2023",
+			title: "Słowenia 2023",
 			filter: "Polska",
-			src: "./img/gallery/Slowacja2023/009.jpg",
+			src: "./img/gallery/Slowenia2023/009.jpg",
 		},
 		{
 			id: 10,
 			class: "thumbnail",
-			title: "Słowacja 2023",
+			title: "Słowenia 2023",
 			filter: "Polska",
-			src: "./img/gallery/Slowacja2023/010.jpg",
+			src: "./img/gallery/Slowenia2023/010.jpg",
 		},
 	],
 };
@@ -381,6 +381,7 @@ const thumbnails = document.querySelectorAll(".thumbnail");
 const firstActiveItem = document.querySelector(".first");
 const albums = document.querySelectorAll(".section-center .gallery-item	");
 const timer = document.querySelector(".circle-progress-box");
+const html = document.querySelector("html");
 const d = (el) => {
 	if (!el.classList.contains("hidden")) {
 		el.classList.add("hidden");
@@ -435,6 +436,7 @@ photoBoxToggle.forEach((albumCover) => {
 			allAlbumPhotos[clickedAlbumId].length
 		})`;
 		window.scrollTo(0, 0);
+		html.classList.toggle("stop-scroll");
 	});
 });
 
@@ -528,6 +530,7 @@ function getClickedAlbumId(e) {
 
 function close() {
 	bodyOverflow.classList.toggle("stop-scroll");
+	html.classList.toggle("stop-scroll");
 	thumbnails.forEach((item) => item.classList.remove("active-thumbnail"));
 	photoBox.classList.add("fade-out");
 	setTimeout(() => {
