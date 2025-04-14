@@ -59,5 +59,5 @@ navToggle.addEventListener("click", () => {
 	links.classList.toggle("show-sidebar");
 	bodyOverflow.classList.toggle("stopScroll");
 	navToggle.classList.toggle("active");
-    window.scrollTo(0, 0);
+	window.scrollTo(0, 0);
 });
